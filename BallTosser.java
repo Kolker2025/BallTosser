@@ -18,7 +18,7 @@ public class BallTosser extends MouseAdapter implements Runnable {
 
 	// multiplier to convert the press/release distances to initial
 	// speeds in the x and y directions
-	public static final double SLING_FACTOR = 0.25;
+	public static final double SLING_FACTOR = 10.0;
 
 	// list of FallingGravityBall objects currently on the screen
 	private java.util.List<BouncingGravityBall> list;
